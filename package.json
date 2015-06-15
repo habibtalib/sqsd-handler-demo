@@ -1,0 +1,34 @@
+{
+  "name": "sqsd-handler-demo",
+  "description": "Demonstration project for the sqsd-handler middleware library.",
+  "version": "0.0.1",
+  "keywords": [
+    "aws",
+    "elasticbeanstalk",
+    "beanstalk",
+    "sqs",
+    "sqsd",
+    "express"
+  ],
+  "scripts": {
+    "start": "node server.js"
+  },
+  "homepage": "https://github.com/jvwing/sqsd-handler-demo",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jvwing/sqsd-handler-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jvwing/sqsd-handler-demo/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "James Wing",
+    "email": "jvwing@gmail.com",
+    "url": "https://github.com/jvwing/"
+  },
+  "dependencies": {
+    "express": "~4.9.0",
+    "sqsd-handler": "git://github.com/jvwing/sqsd-handler.git"
+  }
+}
